@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="100dp">
+    <CheckBox
+        android:id="@+id/itemCheckbox"
+        android:layout_marginLeft="5dp"
+        android:button="@drawable/checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent" />
+    
+    <ImageView
+        android:id="@+id/itemImage"
+        android:layout_marginLeft="5dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp" />
+    <TextView
+        android:id="@+id/itemTextView"
+        android:layout_weight="1"
+        android:layout_marginLeft="5dp"
+        android:gravity="center_vertical"
+        android:text="默认内容"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <TextView
+        android:id="@+id/itemPrice"
+        android:text="价格10元"
+        android:layout_marginLeft="5dp"
+        android:gravity="center_vertical"
+        android:layout_width="100dp"
+        android:layout_height="match_parent" />
+
+</LinearLayout>
